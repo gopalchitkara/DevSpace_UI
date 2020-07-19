@@ -1,0 +1,76 @@
+.article-container {
+    /* float: none !important;
+    margin-right: auto; */
+}
+
+.article {
+    /* padding: 10px 50px; */
+    padding-top: 10px;
+}
+
+.article-meta {
+    font-weight: 500 !important;
+}
+
+.author-info {
+    margin-right: 10px;
+}
+
+.rendered-author-details {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.author-image {
+    height: 70px;
+    width: 70px;
+}
+
+.author-details {
+    margin-left: 15px;
+}
+
+.author-name {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+.author-bio {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.author-social-links {
+    margin-top: 2px;
+    font-size: 1.1rem;
+}
+
+/* rendered post overrights */
+
+/* article loading skeleton  */
+
+.article-skeleton {
+    min-height: 100vh !important;
+
+}
+
+.skeleton-element {
+    width: 100% !important;
+    background-color: #e1e1e1;
+    margin-left: 20px;
+}
+
+.skeleton-element.title {
+    height: 50px !important;
+    margin-top: 50px;
+}
+
+.skeleton-element.header {
+    height: 30px !important;
+    margin-bottom: 10px !important;
+}
+
+.skeleton-element.body {
+    height: 20px !important;
+    margin-bottom: 10px !important;
+}

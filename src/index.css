@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&family=DM+Mono&family=Merriweather&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap'); */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafa;
+}
+
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* 
+.f-roboto {
+  font-family: 'Roboto', sans-serif !important;
+} */
+
+/* utility classes */
+
+.container {
+  width: 90%;
+}
+
+.fullwidth {
+  width: 100% !important;
+}
+
+/* border */
+
+.border {
+  border: solid 1px #e0e1e1;
+}
+
+.border-top {
+  border-top: solid 1px #e0e1e1;
+}
+
+.border-bottom {
+  border-bottom: solid 1px #e0e1e1;
+}
+
+.border-left {
+  border-left: solid 1px #e0e1e1;
+}
+
+.border-right {
+  border-right: solid 1px #e0e1e1;
+}
+
+
+.radius-3 {
+  border-radius: 3px;
+}
+
+.radius-5 {
+  border-radius: 5px;
+}
+
+.radius-half {
+  border-radius: 50%;
+}
+
+/* flex box */
+
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.flex-col {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+.items-baseline {
+  align-items: baseline !important;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.justify-flex-end {
+  justify-content: flex-end !important;
+}
+
+/* paddings */
+
+
+.p2 {
+  padding: 2px !important;
+}
+
+.px2 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.py2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.p5 {
+  padding: 5px !important;
+}
+
+.px5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.py5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.p10 {
+  padding: 10px !important;
+}
+
+.px10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.p15 {
+  padding: 15px !important;
+}
+
+.px15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.p20 {
+  padding: 20px !important;
+}
+
+.px20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* margins */
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mxy0 {
+  margin: 0 !important;
+}
+
+.mx0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.m5 {
+  margin: 5px !important;
+}
+
+.mx5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.my5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.m10 {
+  margin: 10px !important;
+}
+
+.mx10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ml10 {
+  margin-left: 10px !important;
+}
+
+.mr10 {
+  margin-right: 10px !important;
+}
+
+.mr20 {
+  margin-right: 20px !important;
+}
+
+.ml20 {
+  margin-left: 20px !important;
+}
+
+.mt10 {
+  margin-top: 10px !important;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+.m15 {
+  margin: 15px !important;
+}
+
+.mx15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.my15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.m20 {
+  margin: 20px !important;
+}
+
+.mx20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* on hover events */
+
+.bg-on-hover:hover {
+  background-color: #eff0f0;
+  /* background-color: #eceded; */
+}
+
+.onhover-blue:hover {
+  color: #304ffe !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* line height */
+
+.line-height-0 {
+  line-height: 0 !important;
+}
+
+/* font size */
+
+.font-1_2 {
+  font-size: 1.2rem;
+}
+
+.font-0_6 {
+  font-size: 0.6rem;
+}
+
+.font-0_8 {
+  font-size: 0.8rem;
+}
+
+i {
+  display: inline !important;
+}
+
+.topbar-link:hover .topbar-icon {
+  color: #757575 !important;
+}
+
+/* typography */
+
+.bold {
+  font-weight: bold !important;
+}
+
+.bolder {
+  font-weight: bolder !important;
+}

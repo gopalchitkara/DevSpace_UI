@@ -1,0 +1,15 @@
+.like-btn,
+.save-btn {
+    transition-duration: 150ms;
+    border: solid #e1e1e1 2px;
+    background-color: #eeeeee !important;
+}
+
+.like-btn:hover {
+    border: solid red 2px;
+}
+
+.like-active {
+    border: solid red 2px;
+    background-color: #ff8a80 !important;
+}

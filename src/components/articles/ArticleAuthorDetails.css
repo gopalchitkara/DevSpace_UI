@@ -1,0 +1,8 @@
+.article-author-detail {}
+
+.skeleton-row {
+    height: 20px;
+    width: 100%;
+    background-color: #e1e1e1;
+    /* margin-bottom: 10px; */
+}

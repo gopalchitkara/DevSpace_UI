@@ -1,0 +1,24 @@
+.new-post-tag-container {
+    position: relative !important;
+}
+
+.tag-suggestions-container {
+    position: absolute !important;
+    top: 40px;
+    left: 15px;
+    right: 15px;
+}
+
+.suggestion {
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: #304ffe;
+    color: #ffffff;
+}
+
+.suggestion>span {
+    font-size: 1rem;
+    font-weight: 500;
+}

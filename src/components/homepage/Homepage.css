@@ -1,0 +1,27 @@
+.homepage-container {
+    width: 95%;
+}
+
+.homepage {
+    margin-top: 20px;
+}
+
+.sidebar-wrapper-left {
+    padding-right: 0.5rem !important;
+}
+
+.article-list-wrapper {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.sidebar-wrapper-right {
+    padding-left: 0.5rem !important;
+    display: none;
+}
+
+@media only screen and (min-width:1200px) {
+    .sidebar-wrapper-right {
+        display: block;
+    }
+}

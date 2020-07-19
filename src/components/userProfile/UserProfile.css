@@ -1,0 +1,86 @@
+.user-profile-container {
+    border: solid 2px #212121;
+    box-shadow: 3px 3px #212121;
+    border-radius: 3px;
+    min-height: 280px;
+}
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    border: solid 2px #212121;
+    border-radius: 50%;
+}
+
+.profile-quick-info {
+    padding-left: 10px;
+    border-left: solid 4px #212121;
+}
+
+.profile-username {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.profile-bio {
+    font-weight: 500;
+    font-style: italic;
+}
+
+i.fa-github:hover {
+    color: #000000 !important;
+}
+
+i.fa-linkedin:hover {
+    color: #0e76a8 !important;
+}
+
+i.fa-stack-overflow:hover {
+    color: #ef8236 !important;
+}
+
+i.fa-medium:hover {
+    color: #000000 !important;
+}
+
+i.fa-external-link-alt:hover {
+    color: #000000 !important;
+}
+
+.social-link {
+    margin-right: 40px;
+}
+
+.key {
+    font-weight: 500;
+}
+
+@media only screen and (max-width:992px) {
+    .profile-image {
+        height: 160px;
+        width: 160px;
+    }
+
+    .profile-username {
+        font-size: 2.2rem;
+    }
+
+    .social-link {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .profile-image {
+        height: 120px;
+        width: 120px;
+    }
+
+    .profile-username {
+        font-size: 2rem;
+    }
+
+    .social-link {
+        margin-right: 20px;
+    }
+}

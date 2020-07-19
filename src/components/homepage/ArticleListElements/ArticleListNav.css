@@ -1,0 +1,12 @@
+.article-list-nav>button {
+    flex-grow: 1;
+}
+
+.article-list-nav>button>span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.story-title {
+    color: #212121;
+}

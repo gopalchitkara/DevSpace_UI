@@ -1,0 +1,11 @@
+.widget-trending-tags {
+    border-top: solid 1px #e0e1e1;
+}
+
+.trending-tag {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.trending-tag:hover {
+    color: #304ffe !important;
+}

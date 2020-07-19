@@ -1,0 +1,13 @@
+.btn-unsave-article,
+.btn-save-article {
+    width: 85px !important;
+}
+
+.btn-unsave-article:hover span {
+    display: none !important;
+}
+
+.btn-unsave-article:hover:before {
+    content: "UNSAVE";
+    font-weight: 500;
+}

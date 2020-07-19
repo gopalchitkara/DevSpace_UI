@@ -1,0 +1,57 @@
+.article-story {
+    border: solid 1px #e0e1e1;
+    /* cursor: pointer; */
+}
+
+.article-story:first-child {
+    margin-top: 0px !important;
+}
+
+.article-author-profile-link {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.story-author-name {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.story-publish-date {
+    margin: 0;
+    font-size: .8rem;
+}
+
+.article-story-body {
+    padding-left: 36px;
+}
+
+.story-title {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.story-title:hover {
+    color: #304ffe;
+}
+
+.story-tags {
+    margin-bottom: 10px;
+}
+
+.story-tag-link {
+    margin-right: 20px;
+    font-size: 0.9rem;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+.story-options>span {
+    font-size: .8rem;
+}
+
+.story-bottom {
+    margin-bottom: 5px;
+}

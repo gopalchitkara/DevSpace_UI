@@ -1,0 +1,16 @@
+.sidebar-profile-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+.sidebar-profile-details p {
+    margin: 0px;
+}
+
+.sidebar-profile-name>p {
+    font-size: 1.1rem;
+}
+
+.sidebar-profile-handle>p {
+    font-size: .9rem;
+}
